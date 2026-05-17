@@ -1,0 +1,175 @@
+# ============================================================
+# .gitignore for waltrone1 ASCII ArtStudio
+# Python / tkinter Windows desktop app with py2exe / PyInstaller
+# ============================================================
+
+
+# ------------------------------------------------------------
+# Python cache / bytecode
+# ------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+
+# ------------------------------------------------------------
+# Virtual environments
+# ------------------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+virtualenv/
+.python-version
+
+
+# ------------------------------------------------------------
+# Python packaging / build metadata
+# ------------------------------------------------------------
+build/
+dist/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+wheelhouse/
+
+
+# ------------------------------------------------------------
+# PyInstaller / py2exe / cx_Freeze output
+# ------------------------------------------------------------
+*.manifest
+*.spec
+*.toc
+*.pyz
+*.pyzw
+*.exe
+*.dll
+*.msi
+*.cab
+*.app
+*.appx
+*.appxbundle
+
+# Common generated folders
+release/
+releases/
+installer/
+installers/
+portable/
+portable-build/
+windows-build/
+win-build/
+exe-build/
+
+
+# ------------------------------------------------------------
+# Inno Setup / installer compiler output
+# ------------------------------------------------------------
+Output/
+output/
+*.iss.bak
+
+
+# ------------------------------------------------------------
+# Runtime data / local app data / generated user files
+# ------------------------------------------------------------
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.swp
+*.swo
+
+# Optional generated export/output folders
+exports/
+export/
+exported/
+preview/
+previews/
+temp/
+tmp/
+
+
+# ------------------------------------------------------------
+# Local configuration / secrets
+# ------------------------------------------------------------
+.env
+.env.*
+*.env
+config.local.*
+settings.local.*
+secrets.*
+credentials.*
+
+
+# ------------------------------------------------------------
+# Test / coverage / tooling cache
+# ------------------------------------------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.cache/
+
+
+# ------------------------------------------------------------
+# IDE / editor files
+# ------------------------------------------------------------
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+
+# ------------------------------------------------------------
+# Operating system files
+# ------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Trashes/
+.Spotlight-V100/
+.fseventsd/
+
+
+# ------------------------------------------------------------
+# Archives / release packages
+# ------------------------------------------------------------
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
+
+# ------------------------------------------------------------
+# Keep repository documentation/assets
+# ------------------------------------------------------------
+!README.md
+!CHANGELOG.md
+!LICENSE
+!requirements.txt
+!run.py
+!docs/
+!screenshots/
+!screenshots/.gitkeep
+!py2exe/
+!*.ico
