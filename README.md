@@ -10,11 +10,9 @@ The tool is designed for Windows users, creators, retro fans, admins, technician
 
 ## Screenshot
 
-The screenshot shows the main application window for converting images into retro ASCII artwork and exporting the result as HTML, SVG or PNG.
-
-### Main Window
-
 ![waltrone1 ASCII ArtStudio main window](screenshots/ascii-artstudio-main.png)
+
+The screenshot shows the main application window for converting images into retro ASCII artwork and exporting the result as HTML, SVG or PNG.
 
 ---
 
@@ -105,8 +103,7 @@ waltrone1-ascii-artstudio/
 |   `-- usage.md
 |
 |-- screenshots/
-|   |-- ascii-artstudio-main.png
-|   `-- application screenshots
+|   `-- ascii-artstudio-main.png
 |
 |-- py2exe/
 |   `-- build files for creating a Windows executable
@@ -131,8 +128,6 @@ waltrone1-ASCII-ArtStudio.py
 ```
 
 The `py2exe/` folder contains build-related files for creating a Windows executable.
-
-The `screenshots/` folder contains the images used in this README.
 
 Generated files such as `.exe`, `.zip`, `build/`, `dist/`, `.venv/` or release folders should not be committed directly to the repository.
 
