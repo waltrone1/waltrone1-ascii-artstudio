@@ -1,0 +1,28 @@
+# UTF-8
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(2, 5, 0, 0),
+    prodvers=(2, 5, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable(
+        '040904B0',
+        [StringStruct('CompanyName', 'waltrone1'),
+         StringStruct('FileDescription', 'waltrone1 ASCII ArtStudio Retro HTML Pro Arcade'),
+         StringStruct('FileVersion', '1.0.0.0'),
+         StringStruct('InternalName', 'waltrone1-ASCII-ArtStudio'),
+         StringStruct('LegalCopyright', 'Copyright (c) waltrone1'),
+         StringStruct('OriginalFilename', 'waltrone1-ASCII-ArtStudio.exe'),
+         StringStruct('ProductName', 'waltrone1-ASCII-ArtStudio Retro HTML Pro Arcade'),
+         StringStruct('ProductVersion', '1.0.0.0')])
+    ]),
+    VarFileInfo([VarStruct('Translation', [1033, 1200])])
+  ]
+)
