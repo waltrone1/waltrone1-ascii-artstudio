@@ -8,6 +8,16 @@ The tool is designed for Windows users, creators, retro fans, admins, technician
 
 ---
 
+## Screenshot
+
+The screenshot shows the main application window for converting images into retro ASCII artwork and exporting the result as HTML, SVG or PNG.
+
+### Main Window
+
+![waltrone1 ASCII ArtStudio main window](screenshots/ascii-artstudio-main.png)
+
+---
+
 ## Features
 
 - Image to ASCII conversion for common image formats
@@ -127,14 +137,6 @@ The `screenshots/` folder contains the images used in this README.
 Generated files such as `.exe`, `.zip`, `build/`, `dist/`, `.venv/` or release folders should not be committed directly to the repository.
 
 Final release packages should be published through GitHub Releases.
-
----
-
-## Screenshots
-
-### Main Window
-
-![Main Window](screenshots/ascii-artstudio-main.png)
 
 ---
 
