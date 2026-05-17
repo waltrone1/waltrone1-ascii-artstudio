@@ -136,14 +136,6 @@ Final release packages should be published through GitHub Releases.
 
 ![Main Window](screenshots/ascii-artstudio-main.png)
 
-Additional screenshots can be added later, for example:
-
-```text
-screenshots/ascii-artstudio-live-preview.png
-screenshots/ascii-artstudio-html-export.png
-screenshots/ascii-artstudio-png-export.png
-```
-
 ---
 
 ## Basic Usage
