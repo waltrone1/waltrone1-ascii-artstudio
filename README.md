@@ -1,4 +1,4 @@
-# waltrone1 ASCII ArtStudio
+# WALTRONE ASCII ArtStudio
 
 **waltrone1 ASCII ArtStudio** is a free retro ASCII art generator and export tool for Windows by **WALTRONE**.
 
